@@ -79,3 +79,24 @@ body {
     border-radius: 50%;
     margin-bottom: -22px
 }
+.one:after {
+    content: '1';
+    position: relative;
+}
+.two:after {
+    content: '2';
+    position: relative;
+}
+.three:after {
+    content: '3';
+    position: relative;
+}
+.one:hover:after,
+.two:hover:after,
+.three:hover:after {
+    content: '\2713';
+    background-color: #353535;
+    color: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
